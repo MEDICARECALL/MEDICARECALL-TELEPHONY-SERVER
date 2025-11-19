@@ -3,6 +3,8 @@
 
 - [비즈니스 서버](https://github.com/MEDICARECALL/MEDICARECALL_BACKEND)
 
+🔗새싹 해커톤 AI 서비스 기획서 PDF 링크 https://github.com/MEDICARECALL/.github/blob/main/profile/%5B%EB%A9%94%EB%94%94%EC%BC%80%EC%96%B4%5D2025%EB%85%84%20%EC%83%88%EC%8B%B9%20%ED%95%B4%EC%BB%A4%ED%86%A4%20AI%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B8%B0%ED%9A%8D%EC%84%9C.pdf
+
 ## 주요 기능
 - 실시간 음성 스트리밍 및 AI 연동: Twilio와 WebSocket을 사용하여 실시간으로 음성 데이터를 스트리밍하고 OpenAI의 음성 AI 모델과 통신하여 자연스러운 대화를 구현합니다.
 - 통화 상태 관리: Twilio로부터 completed, busy, no-answer 등 통화 상태에 대한 콜백을 받아 실시간으로 통화 상태를 업데이트하고 관리합니다.
@@ -53,6 +55,7 @@ TypeScript 코드를 JavaScript로 컴파일하여 `dist`디렉토리에 저장�
 npm start
 ```
 컴파일된 `dist/server.js` 파일을 실행합니다.
+
 
 
 
